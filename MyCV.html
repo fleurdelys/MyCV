@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Best version of Thao's CV">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta name="keywords" content="CV, Resume, curriculum vitae, HTML, CSS, JavaScript">
+    <meta name="author" content="Thao Nguyen">
+    <title>CV of Nguyen Phuong Thao</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="myCV.css">
+</head>
+<body>
+<!-- <div class="container-fluid" style="background-color:powderblue; padding: 0%"> -->
+
+<div class="container-fluid" style="background-color:beige; padding: 0px;">
+    <p id="greeting" style="background-color:white;"></p>
+    <div class="row" id="introSection">
+        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+            <div class="row">
+                <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                    <div class="deco-rect1"></div>
+                </div>
+                <h1 class="col-xs-12 col-sm-11 col-md-11 col-lg-11" id="myName">Thao Nguyen</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding"></div>
+                <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                    <p class="para">
+                        Aiming to create a better life for people around me
+                        through the quality applications that I take part in to create.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 image-col no-padding">
+            <img src="resources/ava.jpg" alt="my Avatar" class = "img-circle center-block avatar"/>
+        </div>
+        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 contact-info">
+            <ul id="contactList">
+                <li class="contact-item">npt201083@gmail.com &nbsp; <img src="resources/email.svg" alt="email icon" class="icon"></li>
+                <li class="contact-item">01627147057 &nbsp; <img src="resources/phone.svg" alt="phone icon" class="icon"></li>
+                <li class="contact-item">Hanoi, Vietnam &nbsp; <img src="resources/location.svg" alt="location icon" class="icon"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row thematic-line"></div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="padding: 0px 30px;">
+            <div id="experience">
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <h3>Work Experience</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">02/2016 - 07/2017</div>
+                        <div class="location">Hanoi, Vietnam</div>
+                        <h5 style="clear: both"><b>Software Developer (Qt5, C++)</b></h5>
+                        <h5><a href="http://www.mdi-astec.vn/en/">MDI Astec VN</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding"></div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <p class="para">
+                            I joined two projects at MDI Astec. The first one was to implement additional
+                            functions to the existing product <a href="http://www.asteccorp.co.jp/package/en/intrabox.htm">Intrabox</a>.
+                            Intrabox is a client-side application that
+                            creates a virtual drive on user’s local machine. User can create folders, save
+                            files into the drive. The data stored in the drive will be pushed to remote
+                            servers, called Intrabox object pools. The local data is synchronized with the one on servers when needed.
+                            Intrabox allows user to store an amount of data
+                            which is bigger than the actual memory allocated for the virtual drive. It
+                            enables users to share a large amount of data in a fast and convenient way.
+                            The database of Intrabox was initially stored locally and managed by SQLite3.
+                            In the project, we extended the database management of Intrabox to the
+                            options of Postgre and MariaDB. I joined the project at its last two months.
+                            My main task was to understand the requirements and to test the system. The
+                            second project was developing new software to simulate and control a
+                            hardware device based on an existing simulator. Since the hardware device
+                            was upgraded, a new simulator was needed. The old simulator was written in
+                            C#. We had to develop the new simulator in Qt5 and C++.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">03/2015 - 12/2015</div>
+                        <div class="location">Ho Chi Minh city, Vietnam</div>
+                        <h5 style="clear: both"><b>Technical Writer</b></h5>
+                        <h5><a href="http://mulodo.com.vn/en/">Mulodo Vietnam</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding"></div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <p class="para">
+                            My main task was communicating with 6 developers to create technical
+                            documents for the software developed by the team, like software manuals or
+                            readme files for APIs, plugins, etc. I supported the team to communicate with
+                            our Japanese project manager and with customers in English. I was also in
+                            charge of tracking the tasks assigned to the developers, reporting to the
+                            customers every day, and organizing meetings among the team during 3
+                            months. I assisted the Japanese project manager to manage 6 developers for
+                            a whole month when he was away in Japan. Occasionally, I also provided
+                            English lessons to the developers to help improving their English skill.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">03/2014 - 12/2014</div>
+                        <div class="location">Ho Chi Minh city, Vietnam</div>
+                        <h5 style="clear: both"><b>Data Analyst and Mobile Game Designer</b></h5>
+                        <h5><a href="http://like.vn/">Like.vn Vietnam</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding"></div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <p class="para">
+                            75% of working time was for market research, analyzing marketing and game
+                            data, building projection models for game projects, being involved in building
+                            a content management system. 25% of the time was for designing algorithms
+                            in mobile games.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">03/2008 - 06/2008</div>
+                        <div class="location">Suwon, South Korea</div>
+                        <h5 style="clear: both"><b>Teaching Assistant</b></h5>
+                        <h5><a href="http://www.khu.ac.kr/eng/index.jsp">Graduate school, Kyung Hee University</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding"></div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <p class="para">
+                            Prepare lecture slides for the graduate course “Wireless Network” provided by
+                            Prof. Jeong Geun Kim.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">07/2006 - 01/2007</div>
+                        <div class="location">Hanoi, Vietnam</div>
+                        <h5 style="clear: both"><b>Software Developer</b></h5>
+                        <h5><a>Avasys Vietnam Co., Ltd</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding"></div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <p class="para">
+                            Study requirements, compose specification, basic and detailed designs, develop
+                            software, and perform unit tests.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">01/2006 - 05/2006</div>
+                        <div class="location">Hanoi, Vietnam</div>
+                        <h5 style="clear: both"><b>Intern Student (part time)</b></h5>
+                        <h5><a>Hydro Meteorological Data Centre of Vietnam (HMDC)</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding"></div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <p class="para">
+                            Develop software.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="education">
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+                    <h3 class="col-xs-12 col-sm-11 col-md-11 col-lg-11">Education</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">09/2009 - 09/2010</div>
+                        <h5 style="clear: both"><b>Master of Science (MSc.) in Computer Science</b></h5>
+                        <h5><a href="http://unice.fr/en">University of Nice-Sophia Antipolis (UNS), France</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">03/2007 - 03/2009</div>
+                        <h5 style="clear: both"><b>Master of Engineering</b></h5>
+                        <h5><a href="www.khu.ac.kr/eng/index.jsp">Kyung Hee University (KHU), South Korea</a></h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1 col-md-1 col-lg-1 hidden-xs no-padding">
+                        <div class="deco-rect2"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-11 col-md-11 col-lg-11">
+                        <div class="work-period">08/2001 - 06/2006</div>
+                        <h5 style="clear: both"><b>Engineer of Information Technology</b></h5>
+                        <h5><a href="http://soict.hust.edu.vn/en/index.php/home">Hanoi University of Science and Technology (HUST), Vietnam</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="padding: 0px 30px;">
+            <div id="skills">
+                <div class="row">
+                    <h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Skills & Competences</h3>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="flex-container">
+                            <div class="level-item"></div>
+                            <div class="level-item"></div>
+                            <div class="level-item"></div>
+                            <div class="level-item"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row skill-item">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="skil-name">Team working</div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="flex-container skill-bar">
+                            <div class="level-item" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row skill-item">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="skil-name">Critical thinking</div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="flex-container skill-bar">
+                            <div class="level-item" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row skill-item">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="skil-name">Verbal and written communication</div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="flex-container skill-bar">
+                            <div class="level-item" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="achievements">
+                <div class="row">
+                    <h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Achievements & Publications</h3>
+                </div>
+                <div class="row">
+                    <h4 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Best Paper Award (2014)</h4>
+                    <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 para"><b>Thao Nguyen</b> and Brian J. d’Auriol. <i>EStarMom: Extendable Simulator for Trust and
+                        Reputation Management in Online Marketplaces</i>. The sixth ASE International
+                        Conference on Privacy, Security, Risk and Trust. PASSAT 2014 – Cambridge, MA, USA,
+                        December 14 – 16, 2014. </p>
+                </div>
+                <div class="row">
+                    <h4 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Best Contribution Award (2014)</h4>
+                    <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 para"><b>Thao Nguyen</b> et al. <i>Towards a Trust and Reputation Framework for Social Web
+                        Platforms</i>. OTM Workshops 2012, Rome, Italy.</p>
+                </div>
+            </div>
+            <div id="language">
+                <div class="row">
+                    <h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Languages</h3>
+                    <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 para">English – professional working proficiency (TOEIC 905)</p>
+                </div>
+            </div>
+            <div id="interest">
+                <div class="row">
+                    <h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Interests</h3>
+                    <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 para">Travelling | Hiking | Swimming | Movies | Gastronomy and Culinary | Dogs | Flowers and Plants</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="myCV.js"></script>
+</html>

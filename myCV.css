@@ -1,0 +1,106 @@
+#myName {
+    padding-top: 0px;
+    margin: 0px;
+    height: 60px;
+    width: auto;
+}
+
+.thematic-line {
+    background-color: #001e3f;
+    height: 1px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 45px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.deco-rect1 {
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    background-color: #fec321;
+}
+
+.deco-rect2 {
+    width: 86%;
+    height: 60px;
+    margin: 0px;
+    background-color: #001e3f;
+}
+
+.avatar {
+    height: 130px;
+    border: 3px solid #fec321;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+.contact-info {
+    height: 130px;
+    text-align: right;
+}
+
+#contactList {
+    list-style-type: none;
+}
+.contact-item {
+    line-height: 45px;
+}
+
+#introSection {
+    height: 150px;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.work-period {
+    color: #fec321;
+    float: left;
+}
+
+.location {
+    color: #fec321;
+    float: right;
+}
+
+.para {
+    text-align: justify;
+}
+
+.ver-gap {
+    height: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.level-item {
+    background-color: #fec321;
+    height: 13px;
+    width: 3px;
+}
+
+.skil-name {
+    text-align: right;
+}
+
+.skill-bar {
+    border: solid #fec321;
+    background-color: white;
+}
+
+.skill-item {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
